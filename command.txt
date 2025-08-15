@@ -1,0 +1,27 @@
+
+  489  npm i 
+  490  npm i --legacy-peer-deps
+  491  npm run start 
+  492  npm run start 
+  493  npm i 
+  494  git clone https://github.com/kundan594/angular-deploy-ssr-csr-spa.git
+  495  ls
+  496  cd angular-deploy-ssr-csr-spa/
+  497  npm run start
+  498  npm i 
+  499  npm run start 
+  500  cd c:\Users\061295CA8\projects\deployment\angular-deploy-ssr-csr-spa && firebase init
+  501  cd c:/Users/061295CA8/projects/deployment/angular-deploy-ssr-csr-spa && firebase init
+  502  firebase init
+  503  npm  i firebase-tools
+  504  firebase init
+  505  npx firebase-tools init
+  506  firebase login
+  507  npx firebase-tools init
+  508  npx firebase-tools login
+  509  npx firebase-tools init
+  510  npx firebase-tools init
+  511  npm run build
+  512  npx firebase-tools init
+       npx firebase-ttols deploy
+  513  history > command.txt
