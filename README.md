@@ -1,27 +1,25 @@
-# Routing
+Turning an Angular application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+into a server side rendered Angular application
 
-## Development server
+or an Angular application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+that's ready for server side rendering
 
-## Code scaffolding
+is as simple as running NG add @Angular/ssr.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng add @angular/ssr
 
-## Build
+below code run on browser after all componnet hsa sbeene render in next cycle
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+afterNextRender(()=> {
+      const tasks = localStorage.getItem('tasks');
 
-## Running unit tests
+    if (tasks) {
+      this.tasks.set(JSON.parse(tasks));
+    }
+       
+    });
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    some issue fix later 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
